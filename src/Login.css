@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url("Love_nature.jpg")
+};
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.App {
+   height:100vh;
+   width:100%;
+   margin:25px;
+   padding:25px;
+   background-color:black;
+   background-image: url("Love_nature.jpg");
+   background-size: cover;
+   color:white;
+}
+
+.input {
+   justify-content: center;
+   display:flex;
+   flex-direction:column;
+   padding:25px;
+}
+
+input{
+    display: flex;
+    padding: 5px;
+}
+
+.one {
+    margin:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 6px;
+    border-radius: 50px;
+    background-color:rgb(240, 240, 22) ;
+    border: none;
+    margin:25px 150px;
+}
+
+.login-footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
