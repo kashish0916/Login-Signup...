@@ -4,14 +4,19 @@
 }
 
 body{
-    background-image: url("Love_nature.jpg")
-};
+    background-image: url("Love_nature.jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    margin:50px;
 }
 
 .App {
@@ -65,8 +70,50 @@ label{
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
 }
-
 span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* sign up page */
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    padding:8px;
+}
+
+.mark-up{
+    display: flex;
+}
+
+div {
+    margin: 10px;
+}
+
+a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-email{
+    display: flex;
+    align-items: center;
+}
+
+.input-email input{
+    width: 100%;
+}
+
+.first-name{
+    margin-right: 10px;
+}
